@@ -1,0 +1,8 @@
+-----REFERANS-----
+const data = 1;
+const data2 = data;
+-data2 = 5 =======>>> data = 5
++data2 = Object.assign({}, data);
+++data2 = JSON.parse(JSON.stringify(data)); //// İc ice objeler
++data2 = 5 =======>>> data = 1
+
