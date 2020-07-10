@@ -6,3 +6,14 @@ const data2 = data;
 ++data2 = JSON.parse(JSON.stringify(data)); //// İc ice objeler
 +data2 = 5 =======>>> data = 1
 
+
+Props - states:::
+Üst Mecradan Alıyorsa Props,
+Kendindeyse states.
+
+componentWillMount()
+componentDidMount()
+componentWillReceiveProps()
+shouldComponentUpdate()
+componentWillUpdate()
+componentDidUpdate()
